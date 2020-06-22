@@ -30,7 +30,7 @@ If you choose to document HTML tags, open the hint to see how to include HTML ta
 ###### Hint: 
 When displaying HTML tag names as text, you can’t just use the < or > characters, since your browser will think you are trying to create an actual HTML tag. In order to show HTML tags as text, use &lt; to represent < and $gt; to represent >. 2 For example, including the following HTML:
 
-`&lt;h1&gt;` will render the following text: code(&lt;h1&gt;)
+`&lt;h1&gt;` will render the following text: `<h1>`
 
 #### Step: 3
 Your site uses HTML tables to display the documentation. Be sure to label the columns in your HTML.
@@ -38,7 +38,7 @@ Your site uses HTML tables to display the documentation. Be sure to label the co
 In our example site, we used tables with columns for:
 
 - The tag or attribute name
-- The actual formatted tag (eg. <table>)
+- The actual formatted tag (eg. `<table>`)
 - A description of what to use the tag for.
 
 You can use these same columns or choose your own.
